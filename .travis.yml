@@ -1,0 +1,7 @@
+language: scala
+scala: 2.13.3
+arch: 
+   - ppc64le
+   - amd64
+dist: bionic
+script: skip
