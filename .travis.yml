@@ -6,4 +6,4 @@ arch:
 dist: bionic
 script: 
    - javac CountUppercase.java
-   - java -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler
+   - java -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler CountUppercase In 2021 I would like to run ALL languages in one VM.
