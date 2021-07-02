@@ -5,4 +5,4 @@ arch:
    - amd64
 dist: bionic
 script: 
-   - sbt -h
+   - echo $sbt_release_version
