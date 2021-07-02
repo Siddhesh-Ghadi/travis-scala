@@ -1,10 +1,9 @@
-language: scala
-scala: 2.13.3
+language: java
+jdk: 15
 arch: 
    - ppc64le
    - amd64
 dist: bionic
 script: 
-   - ls -al /etc/sbt/*
-   - cat /etc/sbt/jvmopts
-   - cat /etc/sbt/sbtopts
+   - javac CountUppercase.java
+   - java -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler
