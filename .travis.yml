@@ -1,5 +1,5 @@
 language: java
-jdk: jdk15
+jdk: openjdk15
 arch: 
    - ppc64le
    - amd64
