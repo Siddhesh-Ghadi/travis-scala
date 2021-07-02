@@ -6,3 +6,4 @@ arch:
 dist: bionic
 script: 
    - ls -al /etc/sbt/*
+   - cat /etc/sbt/*
